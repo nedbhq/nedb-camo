@@ -1,5 +1,5 @@
 {
-  "name": "camo",
+  "name": "nedb-camo",
   "version": "0.12.3",
   "description": "A class-based ES6 ODM for Mongo-like databases.",
   "author": {
@@ -36,11 +36,8 @@
   },
   "dependencies": {
     "depd": "1.1.0",
-    "lodash": "3.9.3"
-  },
-  "optionalDependencies": {
-    "mongodb": "2.0.42",
-    "nedb": "1.8.0"
+    "lodash": "3.9.3",
+	"nedb-core": ">=3.0.0"
   },
   "devDependencies": {
     "chai": "3.0.0",
